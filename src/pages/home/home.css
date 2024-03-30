@@ -1,0 +1,317 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+.home {
+
+    /* max-height: 40vh; */
+   
+    background-image: url("https://www.providenthousing.com/wp-content/uploads/2023/01/hero-banner.webp");
+    /* height: 50vh; */
+   
+    background-size: cover;
+    background-position: top 6% right 0%;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+}
+
+i{
+    color: rgb(231, 105, 105);
+}
+
+/* Target */
+.target{
+    margin: 1em 0.3em;
+    display: flex;
+    /* overflow-x: scroll; */
+    
+}
+.target ul::-webkit-scrollbar {
+    display: none;
+}
+.target ul {
+    overflow: scroll;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    align-items: center;
+    inline-size: max-content;
+    
+}
+.target ul li {
+    transition:   0.3s ease-in-out;
+    border: 1px solid rgb(233, 105, 105);
+    border-radius: 2em;
+    padding: 0.5em 1em;
+    display: flex;
+    align-items: center;
+    
+}
+.target ul li span{
+    inline-size: max-content;
+
+}
+.target ul li:hover{
+    cursor: pointer;
+    transform: scalex(1.1);
+    background-color: rgb(255, 160, 160);
+    color: white;
+}
+
+/* Herro Section */
+
+
+.home .text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    z-index: 10;
+    
+    text-align: center;
+
+}
+
+.home .text h1 {
+    font-size: 4rem;
+    color: rgb(3, 243, 231);
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0.2em;
+}
+
+.head-and {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text-para {
+    margin-top: 0;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-style: normal;
+
+}
+
+.banner-button {
+    background-color: rgb(0, 255, 234);
+    color: rgb(0, 0, 0);
+    border: 0;
+    font-weight: 600;
+    padding: 1em;
+    margin: 0.3em;
+}
+
+.text ul {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    padding-left: 0;
+    margin: 0.3em;
+}
+
+.text ul li {
+    background-color: white;
+    border-radius: 50%;
+    padding: 1em;
+  
+}
+
+
+
+/* input ssection */
+.input-sec{
+    margin: auto;
+    text-align: center;
+    border: 0.3px red solid;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+    align-items: center;
+    width: max-content;
+    box-shadow: 5px 8px 8px #888888 ;
+    margin-bottom: 0.9em;
+}
+.input-sec i{
+    padding: 1em;
+    border-radius: 0.4em;
+    background-color: rgb(240, 81, 81);
+    color: white;
+    margin: 6px 5px;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+.input-sec i:hover{
+    transform: scale(1.1);
+}
+.local-input{
+outline: none;
+    font-size: 1.1rem;
+    width: 17em;
+    padding: 1em 0.2em;
+    color: gray;
+    border: none;
+    border-radius: 1em;
+
+}
+
+
+/* HighLights */
+.highlights {
+margin: 0 1em 1em;
+}
+.highlights h2{
+    font-size: 2rem;
+    margin-bottom:0.7em ;
+    color: rgb(248, 88, 88);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.high-card{
+    border-radius: 20px 20px 0px 0px;
+    border: 1px #fa7e7e solid;
+    overflow: hidden;
+    max-width: 20vw;
+   
+    min-height: 40vh;
+}
+.high-card img{
+    transition: all 0.3s ease-in-out;
+    height: 40vh;
+    
+    width: 100%;
+}
+.high-card img:hover{
+    transform: scale(1.1);
+    z-index: 200;
+}
+.high-card-desp{
+    padding-left: 1em;
+}
+.high-card-desp h3{
+    color: #fa5959;
+}
+.high-card-desp p{
+    color: #888888;
+}
+
+
+/* home-lower-middle */
+.home-lower-middle h2{
+    padding-left: 1em;
+    color: rgb(248, 88, 88);
+    font-size: 1.8em;
+}
+
+
+
+
+
+@media (max-width:490px) {
+    .banner-image{
+        min-height: 16em;
+    }
+    .home .text{
+        padding: 0.9em 1.5em;
+    }
+    .home .text h1{
+        font-size: 2.5em;
+       margin: 0;
+    }
+    .text-para {
+        font-size: 1em;
+    }
+    .text ul li {
+        padding: 0.7em;
+    }
+    .input-sec i{
+        padding: 0.6em;
+        margin: 0.1em;
+        border-radius: 0.7em;
+    }
+    .input-sec{
+        padding:0.2em  1em;
+        width: 95%;
+    }
+    .local-input{
+        padding:0.3em  0.2em;
+    }
+    .card-section{
+        gap: 0.8em;
+        overflow-x: scroll;
+    }
+    .high-card { 
+        min-width: 40vw;
+        
+        min-height: 15em;
+    }
+    .highlights h2 {
+        font-size: 1.5rem;
+    }    
+    .high-card img{
+        height: 20vh;
+    }
+
+/* home-lower-middle  */
+.home-lower-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home-lower-middle h2{
+   font-size:1.5rem ;
+}
+.home-card{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+}
+#carouselExampleInterval{
+    width: 100%;
+    
+    
+    
+}
+.carousel-item img{
+    height: 12em;
+}
+.price-inline{
+    display: flex;
+    
+    justify-content:space-evenly;
+    
+
+}
+.rooms-desp{
+    padding: 0 1em;
+}
+.rooms-border:last-child{
+    border-left: 1px grey solid;
+}
+    
+}
