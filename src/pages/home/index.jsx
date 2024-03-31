@@ -81,49 +81,102 @@ const Home = () => {
             </div>
         </div>
         <div className="home-lower-middle">
-            <h2><i class="fa-solid fa-map-location"></i> New Launch Property in  Mumbai for Sale</h2>
-            <div className="card-section">
+            <h2><i class="fa-solid fa-map-location"></i> New Launch Property in  Mumbai for Sale/Rent</h2>
+            <div className="card-section-homes">
+
+
                 <div className="home-card">
-                    <div className="img">
-                        {/* carosel  Bootstrap*/}
-                        <div id="carouselExampleInterval"  class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="https://newprojects.99acres.com/projects/shree_ashapura_realtors/shree_samarth_aura/images/hvmq23u_1709224810_476725078_med.jpg" class="d-block w-100" alt="..."/>
-                                </div>
-                                <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="https://newprojects.99acres.com/projects/shree_ashapura_realtors/shree_samarth_aura/images/4totmny_1709224811_476725082_med.jpg" class="d-block w-100" alt="..."/>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="https://newprojects.99acres.com/projects/shree_ashapura_realtors/shree_samarth_aura/images/8x0eyon_1697699127_451908058_med.jpg" class="d-block w-100" alt="..."/>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                        {/* caaurosel end */}
+                    <div className="room-img-sec">
+                        <div className="room-tag"><span ><i class="fa-solid fa-check"></i>Verified</span><span><i class="fa-regular fa-heart"></i></span></div>
+                        <img className="home-img" src="https://newprojects.99acres.com/projects/shree_ashapura_realtors/shree_samarth_aura/images/hvmq23u_1709224810_476725078_med.jpg" alt="" />
                     </div>
                     <div className="rooms-desp">
-                       <h3> <span>Raunak Niwas</span></h3>
-                        <p>01, Ganesh Yadav Chawl, Farid Nagar, Bhandup(w)</p>
+                        <h3> <span>Raunak Niwas</span></h3>
+                        <p>01, Ganesh Yadav Chawl, Farid Nagar, Bhandup(w) 400078</p>
                         <div className="price-inline">
                             <div className="rooms-border">Rs 14000<h6>Rent</h6></div>
-                            <div>550 sq.ft</div>
+                            <div className="rooms-border">550 sq.ft</div>
                         </div>
-                            <div>Near to station</div>
+                        <div className="room-highness"><span> Near to station</span></div>
+                    </div>
+                </div>
+                <div className="home-card">
+                    <div className="room-img-sec">
+                        <div className="room-tag"><span ><i class="fa-solid fa-check"></i>Verified</span><span><i class="fa-regular fa-heart"></i></span></div>
+                        <img className="home-img" src="https://newprojects.99acres.com/projects/shree_ashapura_realtors/shree_samarth_aura/images/hvmq23u_1709224810_476725078_med.jpg" alt="" />
+                    </div>
+                    <div className="rooms-desp">
+                        <h3> <span>Raunak Niwas</span></h3>
+                        <p>01, Ganesh Yadav Chawl, Farid Nagar, Bhandup(w) 400078</p>
+                        <div className="price-inline">
+                            <div className="rooms-border">Rs 14000<h6>Rent</h6></div>
+                            <div className="rooms-border">550 sq.ft</div>
+                        </div>
+                        <div className="room-highness"><span> Near to station</span></div>
+                    </div>
+                </div>
+                <div className="home-card">
+                    <div className="room-img-sec">
+                        <div className="room-tag"><span ><i class="fa-solid fa-check"></i>Verified</span><span><i class="fa-regular fa-heart"></i></span></div>
+                        <img className="home-img" src="https://newprojects.99acres.com/projects/shree_ashapura_realtors/shree_samarth_aura/images/hvmq23u_1709224810_476725078_med.jpg" alt="" />
+                    </div>
+                    <div className="rooms-desp">
+                        <h3> <span>Raunak Niwas</span></h3>
+                        <p>01, Ganesh Yadav Chawl, Farid Nagar, Bhandup(w) 400078</p>
+                        <div className="price-inline">
+                            <div className="rooms-border">Rs 14000<h6>Rent</h6></div>
+                            <div className="rooms-border">550 sq.ft</div>
+                        </div>
+                        <div className="room-highness"><span> Near to station</span></div>
+                    </div>
+                </div>
+                <div className="home-card">
+                    <div className="room-img-sec">
+                        <div className="room-tag"><span ><i class="fa-solid fa-check"></i>Verified</span><span><i class="fa-regular fa-heart"></i></span></div>
+                        <img className="home-img" src="https://newprojects.99acres.com/projects/shree_ashapura_realtors/shree_samarth_aura/images/hvmq23u_1709224810_476725078_med.jpg" alt="" />
+                    </div>
+                    <div className="rooms-desp">
+                        <h3> <span>Raunak Niwas</span></h3>
+                        <p>01, Ganesh Yadav Chawl, Farid Nagar, Bhandup(w) 400078</p>
+                        <div className="price-inline">
+                            <div className="rooms-border">Rs 14000<h6>Rent</h6></div>
+                            <div className="rooms-border">550 sq.ft</div>
+                        </div>
+                        <div className="room-highness"><span> Near to station</span></div>
+                    </div>
+                </div>
+                <div className="home-card">
+                    <div className="room-img-sec">
+                        <div className="room-tag"><span ><i class="fa-solid fa-check"></i>Verified</span><span><i class="fa-regular fa-heart"></i></span></div>
+                        <img className="home-img" src="https://newprojects.99acres.com/projects/shree_ashapura_realtors/shree_samarth_aura/images/hvmq23u_1709224810_476725078_med.jpg" alt="" />
+                    </div>
+                    <div className="rooms-desp">
+                        <h3> <span>Raunak Niwas</span></h3>
+                        <p>01, Ganesh Yadav Chawl, Farid Nagar, Bhandup(w) 400078</p>
+                        <div className="price-inline">
+                            <div className="rooms-border">Rs 14000<h6>Rent</h6></div>
+                            <div className="rooms-border">550 sq.ft</div>
+                        </div>
+                        <div className="room-highness"><span> Near to station</span></div>
                     </div>
                 </div>
 
             </div>
 
         </div>
+        <div className="easy-acces">
+            <div className="find-property">
+                <h5>Find Property</h5>
+                <div>Select from thousands of options, effortlessly </div>
+                <button>Find Now</button>
+            </div>
 
+            <div className="find-property">
+                <h5>List your Property</h5>
+                <p>For free. Without any brokerage </p>
+                <button>Find Now</button>
+            </div>
+        </div>
     </>
 }
 export default Home

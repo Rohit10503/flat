@@ -1,0 +1,44 @@
+.footer {
+    padding: 1em 0.6em;
+background-color: rgb(255, 237, 191);
+    backdrop-filter: brightness(1.5);
+    margin-top: 1em;
+}
+
+.footer ul {
+    padding: 1em 6em;
+    column-gap: 0.3em;
+    row-gap: 0.4em;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+.footer ul  li:hover{
+    cursor: pointer;
+    color: rgb(221, 78, 78);
+}
+.footer-down .download img{
+    width: 7em;
+}
+.footer-down .download{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+@media (max-width:490px) {
+    .footer{
+        background-image: url("https://i.stack.imgur.com/2Ig2y.jpg");
+    background-size: cover;
+    }
+    .footer ul{
+        padding: 1em 0.4em;
+    }
+    .footer-down p{
+        font-size: 0.9em;
+    }
+}
